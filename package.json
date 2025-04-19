@@ -6,7 +6,14 @@
   "author": {
     "name": "Salman Ahamed",
     "url": "https://github.com/Salman-Ahamed",
-    "email": "me.shahriyarhosen@gmail.com"
+    "email": "shahriyar.hosen.dev@gmail.com"
+  },
+  "scripts": {
+    "dev": "refine dev",
+    "build": "tsc && refine build",
+    "start": "refine start",
+    "refine": "refine",
+    "codegen": "graphql-codegen"
   },
   "dependencies": {
     "@refinedev/cli": "^2.16.21",
@@ -41,13 +48,6 @@
     "@graphql-codegen/typescript": "^4.0.1",
     "@graphql-codegen/typescript-operations": "^4.0.1",
     "@graphql-codegen/import-types-preset": "^3.0.0"
-  },
-  "scripts": {
-    "dev": "refine dev",
-    "build": "tsc && refine build",
-    "start": "refine start",
-    "refine": "refine",
-    "codegen": "graphql-codegen"
   },
   "browserslist": {
     "production": [
