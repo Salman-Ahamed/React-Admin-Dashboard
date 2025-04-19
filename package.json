@@ -1,8 +1,13 @@
 {
-  "name": "tangy-impalas-invite",
-  "version": "0.1.0",
+  "name": "react-admin-dashboard",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
+  "author": {
+    "name": "Salman Ahamed",
+    "url": "https://github.com/Salman-Ahamed",
+    "email": "me.shahriyarhosen@gmail.com"
+  },
   "dependencies": {
     "@refinedev/cli": "^2.16.21",
     "@refinedev/core": "^4.47.1",
